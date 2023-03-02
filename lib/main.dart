@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:layout_test/changing_dialog.dart';
 import 'single_child_scroll_view.dart';
 import 'orientation_changer.dart';
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: _title,
-      home: OrientationChangerExample(),
+      home: ChangingDialogScreen(),
     );
   }
 }
